@@ -1,4 +1,4 @@
-n, m = map(int, input().split())
+n, m = map(int, input().split()) 
 
 list_ball = list(map(int, input().split()))
 
