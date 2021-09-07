@@ -4,6 +4,7 @@ n, m = map(int, input().split())
 
 # 2차원 리스트의 맵 정보 입력받기
 graph = []
+
 for i in range(n):
     graph.append(list(map(int, input())))
 
@@ -32,5 +33,7 @@ for i in range(n):
         # 현재 위치에서 DFS 수행
         if dfs(i, j) == True:
             result += 1
+            print("i: ", i, "j: ", j, "result: ", result)
+
 
 print(result)
