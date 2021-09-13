@@ -1,4 +1,4 @@
-# 답안 예시
+# 답안 예시 ....
 
 n, m = map(int, input().split())
 
