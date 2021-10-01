@@ -1,6 +1,9 @@
-# 집합  https://www.acmicpc.net/problem/11723
+#   https://www.acmicpc.net/problem/11723
+# 집합
 
-# 답 검색
+# 런타임에러 3t / 메모리초과 2t / 답 검색
+# 답 코드
+
 import sys
 
 m = int(sys.stdin.readline())
@@ -31,6 +34,35 @@ for _ in range(m):
             else:
                 S.add(x)
 
+"""
+26
+add 1
+add 2
+check 1
+check 2
+check 3
+remove 2
+check 1
+check 2
+toggle 3
+check 1
+check 2
+check 3
+check 4
+all
+check 10
+check 20
+toggle 10
+remove 20
+check 10
+check 20
+empty
+check 1
+toggle 1
+check 1
+toggle 1
+check 1
+"""
 
 # import sys
 
@@ -69,32 +101,3 @@ for _ in range(m):
 # for i in result:
 #     print(i)
 
-"""
-26
-add 1
-add 2
-check 1
-check 2
-check 3
-remove 2
-check 1
-check 2
-toggle 3
-check 1
-check 2
-check 3
-check 4
-all
-check 10
-check 20
-toggle 10
-remove 20
-check 10
-check 20
-empty
-check 1
-toggle 1
-check 1
-toggle 1
-check 1
-"""
