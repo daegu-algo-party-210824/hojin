@@ -1,5 +1,6 @@
 # https://www.acmicpc.net/problem/5525
 
+#  코드 출처 https://donghak-dev.tistory.com/27
 import sys
 input = sys.stdin.readline
 
