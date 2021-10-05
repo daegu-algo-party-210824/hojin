@@ -1,4 +1,4 @@
-# https://www.acmicpc.net/problem/5430
+# https://www.acmicpc.net/problem/5430  AC
 
 
 # 50% 채점에서 시간초과. 보류.

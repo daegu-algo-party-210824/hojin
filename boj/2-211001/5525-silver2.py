@@ -1,4 +1,4 @@
-# https://www.acmicpc.net/problem/5525
+# https://www.acmicpc.net/problem/5525   IOIOI
 
 #  코드 출처 https://donghak-dev.tistory.com/27
 import sys
